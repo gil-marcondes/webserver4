@@ -37,4 +37,4 @@ app.post('/contato',(req,res)=>
 
 app.use('*', erro404);
 
-app.listen(port,()=> console.log(`Aguardando porta ${port}`));
+app.listen(port,()=> console.log(`Aguardando requisições escutando pela porta: ${port}`));
