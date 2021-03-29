@@ -1,0 +1,17 @@
+doctype html
+head
+  title CONTATO
+  center
+    form(action='/contato' method='post')
+      p Usuario:
+      input(type='text' name='user' size='90')
+      p
+        p E-mail:
+        input(type='text' name='email' size='90')
+      p
+        p Comentario:
+      p
+        textarea(cols='100' rows='20' name='coments') Escreva aqui seu comentario
+      p
+        input(type='submit' name='enviar' value='enviar')
+        
